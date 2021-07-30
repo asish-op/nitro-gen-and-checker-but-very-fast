@@ -2,7 +2,7 @@ Discord Nitro Generator and checker at the same time made in python made by asis
 
 - [support server](https://discord.gg/rRPtjjyc6D)
 
-code will auto generate codes and cheak and also generats Valid cods in Valid Codes.txt give it to others 
+code will auto generate codes and check and also generats Valid cods in Valid Codes.txt give it to others 
 
 # important
 
