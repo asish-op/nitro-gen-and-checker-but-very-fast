@@ -1,6 +1,6 @@
 Discord Nitro Generator and checker at the same time made in python made by asish#9999 and ZoomMan2 Yt#5546 
 
-- [support server](https://discord.gg/rRPtjjyc6D)
+- [support server](https://discord.gg/YMRJS5c9xx)
 
 code will auto generate codes and check and also generats Valid cods in Valid Codes.txt give it to others 
 
