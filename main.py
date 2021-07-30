@@ -1,6 +1,7 @@
-import random, string
-import time
 import requests
+import random
+import string
+import time
 
 print("""
 
@@ -12,38 +13,42 @@ print("""
 ╚═╝░░╚══╝╚═╝░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░░ ╚═════╝░╚══════╝╚═╝░░╚══╝╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝
 made by: asish#9999 any help dm me or https://discord.gg/H4T7s8PYEV create ticket 
 """)
+time.sleep(2)
+print("asish")
+time.sleep(0.3)
+print("Subscribe to GT ASISH, will appreciate.\n")
+time.sleep(0.2)
 
-num=input('Input How Many Codes To Generate And Check: ')
+num = int(input('Input How Many Codes to Generate and Check: '))
 
-f=open("Nitro Codes.txt", "w", encoding='utf-8')
+with open("Nitro Codes.txt", "w", encoding='utf-8') as file:
+    print("Your nitro codes are being generated, be patient if you entered the high number!")
 
-print("Wait, Generating for You!")
+    start = time.time()
 
-for n in range(int(num)):
-    y = ''.join(random.choice(string.ascii_uppercase + string.digits + string.ascii_lowercase) for _ in range(16))
-    f.write('https://discord.gift/')
-    f.write(y)
-    f.write("\n")
+    for i in range(num):
+        code = "".join(random.choices(
+            string.ascii_uppercase + string.digits + string.ascii_lowercase,
+            k = 16
+        ))
 
-f.close()
+        file.write(f"https://discord.gift/{code}\n")
 
-#checker#
+    print(f"Generated {num} codes | Time taken: {time.time() - start}\n")
 
-with open("Nitro Codes.txt") as f:
-    for line in f:
+with open("Nitro Codes.txt") as file:
+    for line in file.readlines():
         nitro = line.strip("\n")
 
-        url = "https://discordapp.com/api/v6/entitelemnts/gift-codes/" + nitro + "?with_application=false&with_subscription_plan=true"
+        url = "https://discordapp.com/api/v6/entitlements/gift-codes/" + nitro + "?with_application=false&with_subscription_plan=true"
 
         r = requests.get(url)
 
         if r.status_code == 200:
-            print(" Valid | {} ".format(line.strip("\n")))
+            print(f" Valid | {nitro} ")
             break
         else:
-            print(" Invalid | {}".format(line.strip("\n")))
-input("The end! PRess Enter 5 times to close the program.")
-input("4")
-input("3")
-input("2")
-input("1")
+            print(f" Invalid | {nitro} ")
+
+input("\nYou have generated, Now press enter to close this, you'll get valid codes in Valid Codes.txt if you see its empty then you got no luck, generate 20 million codes for luck or else.")
+
