@@ -17,3 +17,8 @@ if you are using replit.com you must delete .replit file to use
 - star this progect
 - follow me
 - make videos on my projects
+
+# use at your own risk!
+
+- this aganist discord terms and conditions. I am not responsible for your ban or actions 
+recommend not to use generators
