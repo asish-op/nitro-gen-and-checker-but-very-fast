@@ -13,7 +13,7 @@ if you are using replit.com you must delete .replit file to use
 - Dont say u created it when u didnt
 
 ##### Things you should to do:
-- Suscribe to  asish
+- subscribe to  asish
 - star this progect
 - follow me
 - make videos on my projects
