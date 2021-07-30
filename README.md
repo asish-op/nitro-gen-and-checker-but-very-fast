@@ -18,7 +18,7 @@ if you are using replit.com you must delete .replit file to use
 - follow me
 - make videos on my projects
 
-# use at your own risk!
+# Use at your own Risk!
 
-- this aganist discord terms and conditions. I am not responsible for your ban or actions 
+- This is aganist discord terms and conditions. I am not responsible for your ban or actions 
 recommend not to use generators
