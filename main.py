@@ -13,11 +13,11 @@ print("""
 ╚═╝░░╚══╝╚═╝░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░░ ╚═════╝░╚══════╝╚═╝░░╚══╝╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝
 made by: asish#9999 and ZoomMan2 Yt#5546 any help dm me asish#9999 or ZoomMan2 Yt#5546 or https://discord.gg/H4T7s8PYEV create ticket 
 """)
-time.sleep(2)
+time.sleep(0.1)
 print("asish")
-time.sleep(0.3)
+time.sleep(0.1)
 print("Subscribe to GT ASISH and ZOOM MAN2, will appreciate.\n")
-time.sleep(0.2)
+time.sleep(0.1)
 
 num = int(input('Input How Many Codes to Generate and Check: '))
 
@@ -50,5 +50,11 @@ with open("Nitro Codes.txt") as file:
         else:
             print(f" Invalid | {nitro} ")
 
-input("\nYou have generated, Now press enter to close this, you'll get valid codes in Valid Codes.txt if you see its empty then you got no luck, generate 20 million codes for luck or else.")
+
+print("https://www.youtube.com/channel/UCM7UQS2dAQEuykBNCLeCMlA GT ASISH\n")
+print("https://www.youtube.com/channel/UC_yHaXa4Zf9Bfj6zI7j1KBQ Zoom Man2\n")
+
+time.sleep(0.2)
+
+input("\nYou have generated, Now press enter to close this, you'll get valid codes in Valid Codes.txt if you see its empty then you got no luck, generate 20 million codes for luck or else. bad luck :(  ")
 
