@@ -1,8 +1,9 @@
+import os
+import ctypes
 import requests
 import random
 import string
 import time
-
 print("""
 
 ███╗░░██╗██╗████████╗██████╗░░█████╗░░ ██████╗░███████╗███╗░░██╗███████╗██████╗░░█████╗░████████╗░█████╗░██████╗░
