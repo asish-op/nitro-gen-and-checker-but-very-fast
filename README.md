@@ -1,4 +1,4 @@
-Discord Nitro Generator and checker at the same time made in python made by asish#9999 and ZoomMan2 Yt#5546 
+Discord Nitro Generator and checker at the same time made in python made by asish#9999 and ⧼T̼G̼⧽ Tᴇᴄʜ Darkforce#2312 
 
 - [support server](https://discord.gg/YMRJS5c9xx)
 
