@@ -30,7 +30,7 @@ with open("Nitro Codes.txt", "w", encoding='utf-8') as file:
     for i in range(num):
         code = "".join(random.choices(
             string.ascii_uppercase + string.digits + string.ascii_lowercase,
-            k = 16
+            k = 19
         ))
 
         file.write(f"https://discord.gift/{code}\n")
